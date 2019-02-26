@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>6 - interaction 3</title>
+<script src="js/6-interaction3.js"></script>
+</head>
+<body>
+
+<form method="post" action="traitement.php">
+        <p>
+        <table style="width:50%">
+            <tr>
+                <th>Sexe : </th>
+                <th><input type="radio" name="sexe" id="sexe" /><label for="homme">Homme</label><input type="radio" name="sexe" id="sexe" /><label for="femme">Femme</label></th>
+            </tr>
+            <tr>
+                <th>Nom : </th>
+                <th><input type="text" name="nom" id="nom" /></th>
+            </tr>
+            <tr>
+                <th>Prénom : </th>
+                <th><input type="text" name="prenom" id="prenom" /></th>
+            </tr>
+            <tr>
+                <th>Age : </th>
+                <th><input type="text" name="age" id="age" /></th>
+            </tr>
+            <tr>
+                <th>Pseudo : </th>
+                <th><input type="text" name="pseudo" id="pseudo" /></th>
+            </tr>
+            <tr>
+                <th>Mot de Passe : </th>
+                <th><input type="password" name="password" id="password" /></th>
+            </tr>
+            <tr>
+                <th>Mot de Passe (confirmation) : </th>
+                <th><input type="password" name="password_confirm" id="password_confirm" /></th>
+            </tr>
+            <tr>
+                <th>Pays : </th>
+                <th><select name="pays" id="pays">
+                        <option value="0" selected="selected">Sélectionner le pays</option>
+                        <option value="allemagne">Allemagne</option>
+                        <option value="angleterre">Angleterre</option>
+                        <option value="belgique">Belgique</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="france">France</option>
+                        <option value="italie">Italie</option>
+                </th>
+            </tr>
+            <tr>
+                <th></th>
+                <th><input type="checkbox" name="newsletter" id="newsletter" /><label for="true">Je désire recevoir la newletter chaque mois</label></th>
+            </tr>
+        </table>
+        </p>
+        </form>
+
+</body>
+</html>
